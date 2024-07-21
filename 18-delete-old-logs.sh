@@ -12,5 +12,5 @@ then
   echo -e "$G Source directory exits $N"
 else
   echo -e "$R Please make soure $SOURCE_DIRECTORY exists $N"
-  exist 1
+  exit 1
 fi
